@@ -1,0 +1,12 @@
+// Erklären Sie, warum es bei folgendem Programmsegment zu Problemen kommen kann:
+
+// std::map<string,int> matrikelnummern;
+// Hinzufueggen von vielen Studenten 
+// matrikelnummern["Max Mustermann"] = 12345; 
+// matrikelnummern["Erika Mustermann"] = 23523; 
+// ...
+// exmatrikulation(matrikelnummer["Fred Fuchs"]);
+
+// Wie sollten Sie vorgehen, um dieses Problem zu vermeiden?
+
+//Problem: Random Access nicht möglich bei Map. Lösung: über Iterator den gewünschten Studenten finden und dann löschen

@@ -1,0 +1,12 @@
+## Unterschiede zwischen sequentiellen und assoziativen Containern ##
+
+Die Inhalte von sequentielle Container (Listen, Vektoren) sind nach einem Index geordnet, wo hingegen in  einem assoziativen Container (map,set) die Inhalte einem speziellen Key zugeordnet sind. Die Schlüssel von assozieativen Containern werden automatisch nach der Höhe ihres Wertes geordnet, wobei zunächste nach Zeichen (#,+) dann nach Zahlen (1,2) und nach Buchstaben sortiert wird.  Die Indicis sequentieller Container verlaufen streng nach der Höhe ihres Wertes, beginnend bei 0. Die dazu gehörigen Werte sind ungeordnet.
+
+## --- Speichern der Punkte eines Polygons --- ##
+	Speichern in einem assozieativen Container mit X-Koordinate als Key und Y-Koordinate als Wert des Keys
+
+## --- Zuordnung von Farbnamen und entsprechenden RGB-Werten --- ##
+	Speicherung in einem assozieativen Container mit Farbnamen als Key und RGB-Werten als Wert des Keys
+
+## --- FIFO-Warteschlange von Druckaufträgen --- ##
+	Speicherung in einem sequentiellen Container mit Index als Warteposition und Wert zum Index als Druckauftrag.
